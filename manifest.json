@@ -1,0 +1,32 @@
+{
+  "id": "dev.sunny.bitchord.open-lossless",
+  "name": "Open Lossless Catalogue",
+  "version": "1.0.0",
+  "resources": [
+    "search",
+    "stream"
+  ],
+  "allowDownloads": 1,
+  "checkValidLossless": 0,
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "default": "lossless",
+      "options": [
+        {
+          "label": "Lossless",
+          "value": "lossless"
+        },
+        {
+          "label": "High",
+          "value": "high"
+        },
+        {
+          "label": "Low",
+          "value": "low"
+        }
+      ]
+    }
+  ]
+}
